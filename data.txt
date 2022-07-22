@@ -1,0 +1,5 @@
+CREATE USER 'rootfy'@'localhost' IDENTIFIED BY 'Re0d@sh40543131';
+GRANT ALL PRIVILEGES ON * . * TO 'rootfy'@'localhost';
+UPDATE user SET plugin='auth_socket' WHERE User='nightfy';
+FLUSH PRIVILEGES;
+
